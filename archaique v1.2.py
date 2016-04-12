@@ -291,7 +291,7 @@ def dec(cube,can,faceT):
 		elif faceT[1]==5: faceT[1]=7
 		elif faceT[1]==2: faceT[1]=8
 	if faceT[0]==4:
-	 	elif faceT[1]==8: faceT[1]=0
+	 	if faceT[1]==8: faceT[1]=0
 	 	elif faceT[1]==7: faceT[1]=1
 	 	elif faceT[1]==6: faceT[1]=2
 	 	elif faceT[1]==5: faceT[1]=3
@@ -299,6 +299,35 @@ def dec(cube,can,faceT):
 	 	elif faceT[1]==2: faceT[1]=6
 	 	elif faceT[1]==1: faceT[1]=7
 	 	elif faceT[1]==0: faceT[1]=8
+	return faceT
+
+def bonbon(cube,can,level):
+	if level=1:
+		if cube[1]
+
+def step1(cube,can):
+	for i in range (3):
+		if i==0: y="yellow"       #remplacé les couleurs pas les indices des couleurs
+		if i==1: y="blue"
+		if i==2: y="white"
+		if i==3: y="green"
+		cubeT=findCoin(cube,can,"red",y)
+		if cubeT[1]==7: 
+			if i=0 and cubeT[0]==5:
+				parametre=0
+			else:
+
+
+			carlos(cube,can,cubeT,y,parametre)
+
+			carlos0(cube,can,cubeT,y)
+		if cubeT[0]==3: carlos1(cube,can,cubeT,y)
+		if cubeT[1]==5 or cubeT[1]==3 or cubeT[1]==1: carlos2(cube,can,cubeT,y)
+		#cas ou mal placé à faire
+
+def carlos1(cube,can,cubeT,y):
+
+
 
 
 # initialisation de la liste, les faces vont de 1 à 5 (selon leur indice) et chaque case d'une face est numéroté de 0 à 8
