@@ -274,31 +274,32 @@ def rotative(cube,can,face,faceSup,norme):
 def dec(cube,can,faceT):
 	if faceT[0]==0:
 		if faceT[1]==2: faceT[1]=0
-		if faceT[1]==5: faceT[1]=1
-		if faceT[1]==8: faceT[1]=2
-		if faceT[1]==1: faceT[1]=3
-		if faceT[1]==7: faceT[1]=5
-		if faceT[1]==0: faceT[1]=6
-		if faceT[1]==3: faceT[1]=7
-		if faceT[1]==6: faceT[1]=8
+		elif faceT[1]==5: faceT[1]=1
+		elif faceT[1]==8: faceT[1]=2
+		elif faceT[1]==1: faceT[1]=3
+		elif faceT[1]==7: faceT[1]=5
+		elif faceT[1]==0: faceT[1]=6
+		elif faceT[1]==3: faceT[1]=7
+		elif faceT[1]==6: faceT[1]=8
 	if faceT[0]==2:
 		if faceT[1]==6: faceT[1]=0
-		if faceT[1]==3: faceT[1]=1
-		if faceT[1]==0: faceT[1]=2
-		if faceT[1]==7: faceT[1]=3
-		if faceT[1]==1: faceT[1]=5
-		if faceT[1]==8: faceT[1]=6
-		if faceT[1]==5: faceT[1]=7
-		if faceT[1]==2: faceT[1]=8
-	if face[0]==4:
-	 	if faceT[1]==8: faceT[1]=0
-	 	if faceT[1]==7: faceT[1]=1
-	 	if faceT[1]==6: faceT[1]=2
-	 	if faceT[1]==5: faceT[1]=3
-	 	if faceT[1]==3: faceT[1]=5
-	 	if faceT[1]==2: faceT[1]=6
-	 	if faceT[1]==1: faceT[1]=7
-	 	if faceT[1]==0: faceT[1]=8
+		elif faceT[1]==3: faceT[1]=1
+		elif faceT[1]==0: faceT[1]=2
+		elif faceT[1]==7: faceT[1]=3
+		elif faceT[1]==1: faceT[1]=5
+		elif faceT[1]==8: faceT[1]=6
+		elif faceT[1]==5: faceT[1]=7
+		elif faceT[1]==2: faceT[1]=8
+	if faceT[0]==4:
+	 	elif faceT[1]==8: faceT[1]=0
+	 	elif faceT[1]==7: faceT[1]=1
+	 	elif faceT[1]==6: faceT[1]=2
+	 	elif faceT[1]==5: faceT[1]=3
+	 	elif faceT[1]==3: faceT[1]=5
+	 	elif faceT[1]==2: faceT[1]=6
+	 	elif faceT[1]==1: faceT[1]=7
+	 	elif faceT[1]==0: faceT[1]=8
+
 
 # initialisation de la liste, les faces vont de 1 à 5 (selon leur indice) et chaque case d'une face est numéroté de 0 à 8
 cube=[["green"]*9,["red"]*9,["blue"]*9,["orange"]*9,["white"]*9,["yellow"]*9]
