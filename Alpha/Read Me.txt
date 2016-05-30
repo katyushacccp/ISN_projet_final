@@ -1,1 +1,0 @@
-Here are the alpha versions of our Rubik's cube solver.
